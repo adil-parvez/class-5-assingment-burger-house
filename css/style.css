@@ -1,0 +1,452 @@
+/* Google Fonts link up */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 1325px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+/*-- Common Typography End --*/
+
+
+/* Banner Part css code end here 
+*/
+
+.header{
+    width: 100%;
+    background: url(../img/banner.png) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.top-bar .top-item{
+    display: flex;
+    align-items: center;
+}
+.top-bar .top-item p{
+    font-size: 17px;
+    color: #3d2514;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.menu-bar{
+    
+}
+.menu-bar ul{
+    text-align: right;
+}
+.menu-bar ul li{
+    display: inline-block;
+    margin-left: 60px;
+}
+.menu-bar ul li a{
+    font-size: 21px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    color: #3d2514;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.middle-content{
+    align-items: center;
+    padding-top: 120px;
+}
+.middle-content p{
+    font-size: 24px;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    border: 3px dashed #3d2514;
+    padding: 10px 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.middle-content h1{
+    font-size: 115px;
+    color: #3d2514;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.middle-content h3{
+    color: #3d2514;
+    font-size: 57px;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+/* Banner part css code end here */
+
+
+
+/* content part css code start from here */
+.content{
+    width: 100%;
+    padding-top: 30px;
+}
+.content-top{
+    display: flex;
+    justify-content: space-between;
+}
+.content-left{
+    width: 48.5%;
+    position: relative;
+}
+.left-element{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px;
+}
+.left-element h1{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    font-size: 41px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.left-element h3{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.content-right{
+    width: 48.5%;
+}
+.right-top{
+    position: relative;
+}
+.for-mrgn{
+    margin-top: 35px;
+}
+.btn{
+    text-align: center;
+    margin: 70px 0 40px 0;
+}
+.btn button{
+    padding: 10px 20px;
+    background: none;
+    border: none;
+    background: #FFC135;
+    color: #3d2514;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    outline: none;
+    letter-spacing: 1px;
+    border-radius: 10px 0 10px 0;
+    cursor: pointer;
+}
+/* content part css code end here */
+
+
+
+/* order-area css code start from here */
+.order-area{
+    width: 100%;
+}
+.order-content{
+    
+}
+.order-title{
+    text-align: center;
+    padding: 0 50px;
+}
+.order-title h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: #3d2514;
+    text-transform: uppercase;
+}
+.order-title p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: #3d2514;
+    line-height: 1.7em;
+}
+
+.order-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.order-element{
+    width: 30%;
+    text-align: center;
+    padding: 0 10px;
+}
+.order-element h2{
+    font-size: 37px;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+}
+.order-element p{
+    color: #3d2514;
+    font-size: 17px;
+    margin: 10px 0 25px 0;
+}
+.order-element img{
+    width: 100%;
+}
+.order-element button{
+    background: transparent;
+    border: none;
+    outline: none;
+    background-color: #DF1C1C;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 0 10px 0 10px;
+}
+/* order-area css code end here */
+
+
+
+/* slider part css code start from here */
+.slider{
+    width: 100%;
+    padding: 130px 0 60px 0;
+}
+.slider-content{
+    display: flex;
+    justify-content: center;
+}
+.custom{
+    box-shadow: 0px 25px 45px #aeaeae;
+}
+.slider-left{
+    width: 50%;
+    padding: 60px 40px 0 40px;
+}
+.slider-left h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 29px;
+    font-weight: 700;
+    color: #3d3d3d;
+    letter-spacing: 1px;
+}
+.slider-left h1{
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    font-size: 41px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.slider-left p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #3d3d3d;
+    line-height: 1.5em;
+    margin-top: 20px;
+}
+
+.slider-right{
+    width: 50%;
+}
+
+/* custom css for slider */
+.owl-nav{
+    display: none;
+}
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: yellow;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+
+}
+
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    outline: none;
+}
+
+/* slider part css code end here */
+
+/* Contact form part css start from here */
+.contact{
+    width: 100%;
+    background: url(../img/burder-s.png) no-repeat top;
+    background-size: cover;
+    height: 80vh;
+    padding-top: 60px;
+}
+
+.form-content{
+    
+}
+.form-title{
+    text-align: center;
+}
+.form-title h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 29px;
+    color: #3d2514;
+}
+.form-title h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    color: #3d2514;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.form-part{
+    text-align: center;
+    margin-top: 30px;
+}
+.form-part input{
+    width: 325px;
+    padding: 10px;
+    margin: 30px 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+.form-part .btn{
+    background: transparent;
+    border: none;
+    background: red;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/* Contact form part css end here */
+
+
+/* footer part css code start from here */
+.footer{
+    background: url('../img/img3.png') no-repeat center;
+    background-size: cover;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px 0;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.footer-left{
+    width: 40%;
+}
+.footer-left p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 30px 0;
+    line-height: 1.5em;
+}
+.footer-right{
+    width: 30%;
+}
+.socila-area{
+    padding: 80px 0 0 0;
+}
+.socila-area p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    
+}
+.socila-area i{
+    width: 80px;
+    margin-right: 7px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+}
+.f-bottom-content{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.f-bottom-content span{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
+}
+.f-bottom-content ul{
+    list-style: none;
+}
+.f-bottom-content ul li{
+    display: inline-block;
+    margin-left: 15px;
+    height: 40px;
+    width: 40px;
+    background: #ffffff;
+    padding-top: 8px;
+    text-align: center;
+    border-radius: 50%;
+}
+.f-bottom-content ul li i{
+    font-size: 25px;
+    color: #3d2514;
+}
+/* footer part css code end here */
+
+
+
+
+/* Font family:
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+
+
+
+
+
+
+
